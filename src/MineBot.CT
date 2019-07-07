@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="18">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>4</ID>
+      <Description>"Player"</Description>
+      <LastState Value="" Activated="0" RealAddress="00000000"/>
+      <Color>80000008</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>2</ID>
+          <Description>"Flight"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2EC03D77C21"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>"Minecraft.Win10.DX11.exe"+00F59770</Address>
+          <Offsets>
+            <Offset>E31</Offset>
+            <Offset>160</Offset>
+            <Offset>18</Offset>
+            <Offset>1F0</Offset>
+            <Offset>38</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3</ID>
+          <Description>"OPCODE"</Description>
+          <LastState Value="90 90 90 90 90 90 90 48 8B 83" Activated="0" RealAddress="7FF7A7505AE6"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Array of byte</VariableType>
+          <ByteLength>10</ByteLength>
+          <Address>"Minecraft.Win10.DX11.exe"+265AE6</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <CheatCodes>
+    <CodeEntry>
+      <Description>Change of mov byte ptr [rbx+00000E31],00</Description>
+      <Address>7FF7A7505AE6</Address>
+      <ModuleName>Minecraft.Win10.DX11.exe</ModuleName>
+      <ModuleNameOffset>265AE6</ModuleNameOffset>
+      <Before>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>74</Byte>
+        <Byte>07</Byte>
+      </Before>
+      <Actual>
+        <Byte>C6</Byte>
+        <Byte>83</Byte>
+        <Byte>31</Byte>
+        <Byte>0E</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>48</Byte>
+        <Byte>8B</Byte>
+        <Byte>83</Byte>
+        <Byte>90</Byte>
+        <Byte>00</Byte>
+      </After>
+    </CodeEntry>
+  </CheatCodes>
+  <UserdefinedSymbols/>
+  <Comments>Info about this table:
+</Comments>
+</CheatTable>
