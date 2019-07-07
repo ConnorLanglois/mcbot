@@ -1,4 +1,4 @@
-# Minebot
+# Mcbot
 
 A bot that allows various hacks, such as fly, in Minecraft: Bedrock Edition.
 
