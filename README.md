@@ -21,7 +21,7 @@ Clone the repo.
 Open the main cheat table:
 
 ```
-src/MineBot.CT
+src/Mcbot.CT
 ```
 
 ## Authors
